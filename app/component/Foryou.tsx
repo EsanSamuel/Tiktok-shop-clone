@@ -9,6 +9,7 @@ import creators from '../assets/creator.jpg'
 const Foryou = () => {
     const [seller, setSeller] = useState(true)
     const [creator, setCreator] = useState(false)
+    const [isActive,setIsActive] = useState(false)
 
     const showCreator = () => {
         setCreator(true)
@@ -23,7 +24,7 @@ const Foryou = () => {
         <div className='md:p-20 p-5 py-20'>
             <div className='text-center'>
                 <h1 className='md:text-[60px] text-[30px]'>TikTok Shop For You</h1>
-                <div className='flex gap-7 pt-10 items-center justify-center overflow-x-auto'><h1 className='md:text-[30px] text-[16px]  '>I am a</h1>
+                <div className='flex sm:gap-7 gap-2 pt-10 items-center justify-center overflow-x-auto overflow-hidden'><h1 className='md:text-[30px] text-[16px] sm:flex hidden '>I am a</h1>
                     <Button title='Seller' isForyou onClick={showSeller} />
                     <Button title='Creator' isForyou onClick={showCreator} />
                     <Button title='Partner' isForyou />
