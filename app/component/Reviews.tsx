@@ -6,7 +6,7 @@ import Button from './Button'
 
 const Reviews = () => {
     return (
-        <div className='md:p-20 p-5 py-20'>
+        <div className='md:p-20 p-5 py-10'>
             <div className='flex md:flex-row flex-col justify-between w-full gap-20'>
                 <div>
                     <div className='flex flex-col gap-3'>

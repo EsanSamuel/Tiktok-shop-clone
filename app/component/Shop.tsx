@@ -7,7 +7,7 @@ import partner from '../assets/partners.jpg'
 
 const Shop = () => {
     return (
-        <div className='py-20'>
+        <div className='py-10'>
             <div className='text-center md:p-10 p-5'>
                 <h1 className='md:text-[60px] text-[30px]'>Let&apos;s talk Shop</h1>
                 <p className='md:text-[20px] text-[16px] sm:pt-10 pt-5'>See what TikTok Shop can do For You.</p>

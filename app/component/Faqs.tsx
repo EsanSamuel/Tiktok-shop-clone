@@ -45,7 +45,7 @@ const Faqs = () => {
     }
 
     return (
-        <div className='md:p-20 p-5 py-20'>
+        <div className='md:p-20 p-5 py-10'>
             <div className='text-center'>
                 <h1 className='md:text-[60px] text-[30px]'>FAQ</h1>
 

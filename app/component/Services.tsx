@@ -3,7 +3,7 @@ import React from 'react'
 
 const Services = () => {
     return (
-        <div className='sm:p-10 p-5 py-20'>
+        <div className='sm:p-10 p-5 py-10'>
             <div className='md:p-20  pb-10'>
                 <div className='text-center'>
                     <h1 className='md:text-[50px] text-[30px]'>TikTok Shop provides <span className='text-[#ee1d52]'>4 native ways</span> to shop</h1>

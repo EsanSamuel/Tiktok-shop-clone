@@ -3,7 +3,7 @@ import React from 'react'
 
 const App = () => {
     return (
-        <div className='md:p-20 p-5 py-20'>
+        <div className='md:p-20 p-5 py-10'>
             <div className='flex sm:flex-row flex-col justify-between gap-20'>
                 {appItems.map((item) => (
                     <div key={item.id}>

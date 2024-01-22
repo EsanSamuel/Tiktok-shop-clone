@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className='md:p-20 p-5 py-20'>
+        <div className='md:p-20 p-5 py-10'>
             <div className='text-center'>
                 <h1 className='md:text-[60px] text-[30px]'>Shopping, powered by <span className='text-[#ee1d52]'>TikTok</span></h1>
                 <p className='md:text-[20px] text-[14px] sm:pt-10 pt-5 '>TikTok Shop is paving an entirely new way for brands to authentically connect with creators and communities to grow their business and drive meaningful shopping moments.</p>

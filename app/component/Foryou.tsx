@@ -21,7 +21,7 @@ const Foryou = () => {
         setSeller(true)
     }
     return (
-        <div className='md:p-20 p-5 py-20'>
+        <div className='md:p-20 p-5 py-10'>
             <div className='text-center'>
                 <h1 className='md:text-[60px] text-[30px]'>TikTok Shop For You</h1>
                 <div className='flex sm:gap-7 gap-2 pt-10 md:items-center md:justify-center overflow-x-auto'><h1 className='md:text-[30px] text-[16px] sm:flex hidden '>I am a</h1>
