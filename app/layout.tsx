@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TiTok shop clone",
+  title: "TikTok shop clone",
   description: "A clone of the official tiktok shop website",
 };
 
