@@ -59,7 +59,7 @@ const Faqs = () => {
                             {!firstFaq ? <button onClick={() => setFirstFaq(true)} className='font-bold text-[25px] text-[#fe2c55]'>+</button> : <button onClick={() => setFirstFaq(false)} className='text-[25px] cursor-pointer font-bold text-[#fe2c55]'>-</button>}
                         </div>
                     </div>
-                    {firstFaq && <p className='text-[14px] font-light pt-3 '>You need a TikTok Account or Phone/Email Go to Register to sign up Enter your personal/business information Choose your business type and submit relevant documents Wait for approval of your application review, 2-3 days Link bank account Upload products and sell online
+                    {firstFaq && <p className='text-[13px] font-light pt-3 '>You need a TikTok Account or Phone/Email Go to Register to sign up Enter your personal/business information Choose your business type and submit relevant documents Wait for approval of your application review, 2-3 days Link bank account Upload products and sell online
                     </p>}
                 </div>
 
@@ -70,7 +70,7 @@ const Faqs = () => {
                             {!secondFaq ? <button onClick={() => setSecondFaq(true)} className='text-[25px] font-bold text-[#fe2c55]'>+</button> : <button onClick={() => setSecondFaq(false)} className='cursor-pointer text-[25px] font-bold text-[#fe2c55]'>-</button>}
                         </div>
                     </div>
-                    {secondFaq && <p className='text-[14px] font-light pt-3 '>After successful registration in TikTok Shop as a Seller, product information can be uploaded in the seller centre. Products uploaded need to be compliant with TikTok Shop product qualifications and UK regulations as unsupported products will be rejected. Learn More
+                    {secondFaq && <p className='text-[13px] font-light pt-3 '>After successful registration in TikTok Shop as a Seller, product information can be uploaded in the seller centre. Products uploaded need to be compliant with TikTok Shop product qualifications and UK regulations as unsupported products will be rejected. Learn More
                     </p>}
                 </div>
 
@@ -83,7 +83,7 @@ const Faqs = () => {
                             {!thirdFaq ? <button onClick={() => setThirdFaq(true)} className='text-[25px] font-bold text-[#fe2c55]'>+</button> : <button onClick={() => setThirdFaq(false)} className='text-[25px] cursor-pointer font-bold text-[#fe2c55]'>-</button>}
                         </div>
                     </div>
-                    {thirdFaq && <p className='text-[14px] font-light pt-3 '>1. Work with creators to promote products. TikTok Shop Affiliate programme helps brands and sellers connect with creators through commission-based collaboration.<br />
+                    {thirdFaq && <p className='text-[13px] font-light pt-3 '>1. Work with creators to promote products. TikTok Shop Affiliate programme helps brands and sellers connect with creators through commission-based collaboration.<br />
                         2. Go LIVE, Create Shoppable Videos, Product showcase<br />
                         3. Get insights on products and sales performance in seller centre: reviews, analytics dashboard
                     </p>}
@@ -96,7 +96,7 @@ const Faqs = () => {
                             {!fourthFaq ? <button onClick={() => setFourthFaq(true)} className='text-[25px] font-bold text-[#fe2c55]'>+</button> : <button onClick={() => setFourthFaq(false)} className='text-[25px] cursor-pointer font-bold text-[#fe2c55]'>-</button>}
                         </div>
                     </div>
-                    {fourthFaq && <p className='text-[14px] font-light pt-3 '>Discounts, vouchers, free shipping promotion/subsidies, incentive programmes
+                    {fourthFaq && <p className='text-[13px] font-light pt-3 '>Discounts, vouchers, free shipping promotion/subsidies, incentive programmes
                         Join campaigns ( get notified via newsletter about upcoming campaigns)
 
                     </p>}
@@ -109,7 +109,7 @@ const Faqs = () => {
                             {!fifthFaq ? <button onClick={() => setFifthFaq(true)} className='text-[25px] font-bold text-[#fe2c55]'>+</button> : <button onClick={() => setFifthFaq(false)} className='text-[25px] cursor-pointer font-bold text-[#fe2c55]'>-</button>}
                         </div>
                     </div>
-                    {fifthFaq && <p className='text-[14px] font-light pt-3 '>LIVE streams, short videos, showcase tab<br />
+                    {fifthFaq && <p className='text-[13px] font-light pt-3 '>LIVE streams, short videos, showcase tab<br />
                         Click on product and add to basket<br />
                         Manage orders, order tracking, shipping, returns, and payment methods all within seller centre
                     </p>}
