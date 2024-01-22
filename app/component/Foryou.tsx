@@ -37,15 +37,15 @@ const Foryou = () => {
                     <div className='pt-20 sm:hidden'>
                         <Image src={sellers} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[250px] ' alt='' />
                     </div>
-                    <div className='pt-20 flex flex-col gap-7'>
+                    <div className='sm:pt-20 pt-10 flex flex-col gap-7'>
                         <h1 className='text-[#fe2c55] text-[25px]'>Sellers</h1>
-                        <p>TikTok Shop enables brands to showcase and sell products for the TikTok community to discover and purchase.</p>
+                        <p className='font-light text-[14px] '>TikTok Shop enables brands to showcase and sell products for the TikTok community to discover and purchase.</p>
                         {creatorItems.map((item) => (
                             <div key={item.id}>
                                 <div className='flex flex-col gap-2 '>
                                     <div className=''> <Image src={item.image} width={1000} height={1000} className='w-[40px] h-[40px]' alt='' /></div>
                                     <h1 className='text-[24px]'>{item.title}</h1>
-                                    <p className='md:text-[14px] text-[14px]'>{item.details}</p>
+                                    <p className='md:text-[14px] text-[14px] font-light'>{item.details}</p>
                                 </div>
 
                             </div>
@@ -60,18 +60,18 @@ const Foryou = () => {
 
             {creator && (
                 <div className='sm:flex justify-between gap-20'>
-                    <div className='pt-20 sm:hidden'>
+                    <div className='sm:pt-20 pt-10 sm:hidden'>
                         <Image src={creators} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[250px] ' alt='' />
                     </div>
                     <div className='pt-20 flex flex-col gap-7'>
                         <h1 className='text-[#fe2c55] text-[25px]'>Creator</h1>
-                        <p>TikTok Shop enables brands to showcase and sell products for the TikTok community to discover and purchase.</p>
+                        <p className='font-light text-[14px]'>TikTok Shop enables brands to showcase and sell products for the TikTok community to discover and purchase.</p>
                         {sellerItems.map((item) => (
                             <div key={item.id}>
                                 <div className='flex flex-col gap-2 '>
                                     <div className=''> <Image src={item.image} width={1000} height={1000} className='w-[40px] h-[40px]' alt='' /></div>
                                     <h1 className='text-[24px]'>{item.title}</h1>
-                                    <p className='md:text-[14px] text-[14px]'>{item.details}</p>
+                                    <p className='md:text-[14px] text-[14px] font-light'>{item.details}</p>
                                 </div>
 
                             </div>

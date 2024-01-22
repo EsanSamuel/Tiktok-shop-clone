@@ -20,7 +20,7 @@ const Navbar = () => {
         <Button title='Log in' />
       </div>
 
-      <div className='md:hidden mt-2 font-bold'>
+      <div className='md:hidden mt-1 font-bold'>
         <AiOutlineMenu />
       </div>
     </div>

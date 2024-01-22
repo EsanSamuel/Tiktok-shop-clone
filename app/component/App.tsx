@@ -19,6 +19,9 @@ const App = () => {
                     </div>
                 ))}
             </div>
+            <p className='text-[#5f5f5f] text-[13px] text-center pt-20'>
+                Sources: (1)TikTok Marketing Science Global Growing TikTok in eCommerce Study (UK Results) 2022 conducted by Material May 2022 (n=549) (2)TikTok Marketing Science Global Shopping Ad Products Study 2022 (UK Results) conducted by Material February 2022 (n=1,550) (3) TikTok Marketing Science Global Retail Path to Purchase (UK Results) conducted by Material August 2021 (n=1,601)
+            </p>
         </div>
     )
 }

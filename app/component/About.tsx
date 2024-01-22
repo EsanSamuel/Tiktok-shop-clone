@@ -19,7 +19,7 @@ const About = () => {
                             <div className=''>
                                 <div className='flex flex-col gap-2 md:text-start text-center'>
                                     <h1 className='text-[24px]'>{item.title}</h1>
-                                    <p className='md:text-[14px] text-[14px]'>{item.details}</p>
+                                    <p className='md:text-[14px] text-[14px] font-light'>{item.details}</p>
                                 </div>
                             </div>
                         </div>

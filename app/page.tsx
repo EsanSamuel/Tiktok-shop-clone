@@ -5,6 +5,8 @@ import About from './component/About'
 import Services from './component/Services'
 import Foryou from './component/Foryou'
 import App from './component/App'
+import Reviews from './component/Reviews'
+import Shop from './component/Shop'
 
 const Home = () => {
   return (
@@ -28,6 +30,13 @@ const Home = () => {
 
       <div className=' text-white bg-black h-auto'>
        <App />
+      </div>
+
+      <div className=' text-black bg-white h-auto'>
+        <Reviews />
+      </div>
+      <div className=' text-white bg-black h-auto'>
+        <Shop />
       </div>
     </div>
   )
