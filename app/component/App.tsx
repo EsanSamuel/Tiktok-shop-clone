@@ -9,7 +9,11 @@ const App = () => {
                     <div key={item.id}>
                         <div className='sm:px-1 px-10 text-center'>
                             <div className='flex items-center justify-center'>
-                                <video src={item.video} className='w-[200px] h-[200px]' />
+                                <video src={item.video} className='w-[200px] h-[200px]'
+                                    autoPlay
+                                    controls={false}
+                                    muted
+                                    loop />
                             </div>
                             <div className='text-center'>
                                 <h1 className='text-[50px]'>{item.title}</h1>

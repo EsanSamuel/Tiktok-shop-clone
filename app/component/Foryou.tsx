@@ -24,7 +24,7 @@ const Foryou = () => {
         <div className='md:p-20 p-5 py-20'>
             <div className='text-center'>
                 <h1 className='md:text-[60px] text-[30px]'>TikTok Shop For You</h1>
-                <div className='flex sm:gap-7 gap-2 pt-10 items-center justify-center overflow-x-auto overflow-hidden'><h1 className='md:text-[30px] text-[16px] sm:flex hidden '>I am a</h1>
+                <div className='flex sm:gap-7 gap-2 pt-10 md:items-center md:justify-center overflow-x-auto'><h1 className='md:text-[30px] text-[16px] sm:flex hidden '>I am a</h1>
                     <Button title='Seller' isForyou onClick={showSeller} />
                     <Button title='Creator' isForyou onClick={showCreator} />
                     <Button title='Partner' isForyou />
@@ -34,8 +34,8 @@ const Foryou = () => {
 
             {seller && (
                 <div className='sm:flex justify-between gap-20'>
-                    <div className='pt-20 sm:hidden'>
-                        <Image src={sellers} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[250px] ' alt='' />
+                    <div className='sm:pt-20 pt-10 sm:hidden'>
+                        <Image src={sellers} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[150px] ' alt='' />
                     </div>
                     <div className='sm:pt-20 pt-10 flex flex-col gap-7'>
                         <h1 className='text-[#fe2c55] text-[25px]'>Sellers</h1>
@@ -61,9 +61,9 @@ const Foryou = () => {
             {creator && (
                 <div className='sm:flex justify-between gap-20'>
                     <div className='sm:pt-20 pt-10 sm:hidden'>
-                        <Image src={creators} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[250px] ' alt='' />
+                        <Image src={creators} width={1000} height={1000} className='sm:w-[600px] sm:h-[600px] rounded-[15px] w-full h-[150px] ' alt='' />
                     </div>
-                    <div className='pt-20 flex flex-col gap-7'>
+                    <div className='sm:pt-20 pt-10 flex flex-col gap-7'>
                         <h1 className='text-[#fe2c55] text-[25px]'>Creator</h1>
                         <p className='font-light text-[14px]'>TikTok Shop enables brands to showcase and sell products for the TikTok community to discover and purchase.</p>
                         {sellerItems.map((item) => (

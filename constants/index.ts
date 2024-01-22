@@ -175,3 +175,51 @@ export const appItems = [
       "users are more likely to immediately buy something that they discovered on the platform in comparison to other platform users.3",
   },
 ];
+
+export const footer = [
+  {
+    id: 1,
+    title: "Follow Us",
+    firstItem: "TikTok for buyers",
+    secondItem: "TikTok for sellers",
+    thirdItem: "TikTok for creators",
+    fourthItem: "Facebook",
+    fifthItem: "LinkedIn",
+  },
+  {
+    id: 2,
+    title: "Sellers",
+    firstItem: "Open a shop",
+    secondItem: "Seller center",
+    thirdItem: "TikTok Shop Affiliate",
+    fourthItem: "TikTok Shop App Store",
+    fifthItem: "TikTok For Business",
+  },
+  {
+    id: 3,
+    title: "Creators",
+    firstItem: "About Creators",
+    secondItem: "Streamer Desktop",
+    thirdItem: "Affiliate Program",
+    fourthItem: "",
+    fifthItem: "",
+  },
+  {
+    id: 4,
+    title: "Partner",
+    firstItem: "About Partners",
+    secondItem: "Partner Desktop",
+    thirdItem: "Our Partners",
+    fourthItem: "",
+    fifthItem: "",
+  },
+  {
+    id: 5,
+    title: "Support",
+    firstItem: "Academy",
+    secondItem: "Feature guides",
+    thirdItem: "Policy Center",
+    fourthItem: "CapCut Creative Suite",
+    fifthItem: "Music Distribution",
+  },
+];

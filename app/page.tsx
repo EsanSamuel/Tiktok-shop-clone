@@ -7,6 +7,8 @@ import Foryou from './component/Foryou'
 import App from './component/App'
 import Reviews from './component/Reviews'
 import Shop from './component/Shop'
+import Faqs from './component/Faqs'
+import Footer from './component/Footer'
 
 const Home = () => {
   return (
@@ -37,6 +39,13 @@ const Home = () => {
       </div>
       <div className=' text-white bg-black h-auto'>
         <Shop />
+      </div>
+
+      <div className=' text-black bg-[#f3f5f7] h-auto'>
+        <Faqs />
+      </div>
+      <div className=' text-white bg-black h-auto'>
+        <Footer />
       </div>
     </div>
   )
