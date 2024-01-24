@@ -4,6 +4,8 @@ import cart from "../app/assets/cart.png";
 import handshake from "../app/assets/handshake.png";
 import degree from "../app/assets/360.png";
 import app from "../app/assets/app.png";
+import earphone from '../app/assets/earphone.png'
+import reward from '../app/assets/reward.png'
 
 export const navItems = [
   { id: 1, name: "Sellers" },
@@ -116,6 +118,48 @@ export const creatorItems = [
     details:
       "Track performance, traffic, customer reviews and transaction data through TikTok Shop’s data dashboards",
   },
+];
+
+export const partnerItems = [
+  {
+    id: 1,
+    title: "New leads and collaborations",
+    image: handshake,
+    details:
+      "Have the opportunity to collaborate with new brands/creators by tipping into the TikTok audiences",
+  },
+  {
+    id: 2,
+    title: "Training & development",
+    image: earphone,
+    details:
+      "Dedicated e-commerce and platform training to help usher you to growth",
+  },
+  {
+    id: 3,
+    title: "Rewards, Incentives & Commission",
+    image: reward,
+    details:
+      "Unlock your earning potential",
+  },
+];
+
+export const affiliateItems = [
+  {
+    id: 1,
+    title: "Affiliate for sellers",
+    image: handshake,
+    details:
+      "Leverage our creator marketplace to seamlessly partner with our content creators who can sell to their audiences on your behalf.      ",
+  },
+  {
+    id: 2,
+    title: "Affiliate for creators",
+    image: reward,
+    details:
+      "Access a number of products to promote in the Affiliate Product Marketplace and unlock the opportunity to earn commission.      ",
+  },
+  
 ];
 
 export const sellerItems = [
