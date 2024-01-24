@@ -140,7 +140,7 @@ const Foryou = () => {
                     </div>
                     <div className='sm:pt-20 pt-10 flex flex-col gap-7'>
                         <h1 className='text-[#fe2c55] text-[25px]'>Affiliate</h1>
-                        <p className='font-light text-[14px]'>TikTok Shop's affiliate programme gives creators a new and exciting opportunity to monetize their content, creativity and influence by collaborating with sellers on TikTok.
+                        <p className='font-light text-[14px]'>TikTok Shop&apos;s affiliate programme gives creators a new and exciting opportunity to monetize their content, creativity and influence by collaborating with sellers on TikTok.
                         </p>
                         {affiliateItems.map((item) => (
                             <div key={item.id}>
